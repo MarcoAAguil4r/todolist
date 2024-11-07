@@ -1,0 +1,59 @@
+
+
+.container{
+    display: flex; /*+*/
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+
+.box{
+    background-color: white;
+    width: 400px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.box > input, .box>select, .box>button{
+    margin-top: 15px;
+    padding: 10px;
+
+}
+
+
+.box h1{
+    text-align: center;
+}
+
+.box button{
+    cursor: pointer;
+    background-color: cyan;
+    border-radius: 200px;
+}
+
+
+.tarea{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+}
+
+.tarea:hover{
+    background-color: lightcyan;
+    transition: 1s;
+}
+
+.busqueda{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}
+
